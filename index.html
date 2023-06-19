@@ -1,7 +1,174 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Luke Ken - Free and Open Source Game Project</title>
+    <style>
+        body {
+            font-family: Verdana, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000066;
+            color: #ffffff;
+        }
+
+        #header {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+            height: 100vh;
+        }
+
+        #navigation {
+            background: linear-gradient(to right, #000044, #000066);
+            color: #ffffff;
+            padding: 10px;
+            width: 200px;
+        }
+
+        #main {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 20px;
+            flex: 1;
+            overflow: auto;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #00ccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #footer {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        #logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #screenshots {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #screenshots img {
+            width: 400px;
+            margin-bottom: 10px;
+        }
+        #forkme {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+        }
+    </style>
+</head>
+<a id="forkme" href="https://github.com/LukeKenTeam/LukeKen" target="_blank">
+    <img src="pics/forkme.png" alt="Fork me on GitHub">
+</a>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="header">
+        <div id="logo">
+            <img src="pics/logo.png" alt="Luke Ken Logo">
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="navigation">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://github.com/LukeKenTeam/">GitHub</a></li>
+                <li><a href="https://discord.gg/TSFYwTPqUk">Discord</a></li>
+                <img src="pics/badge.png" alt="Open Source Badge">
+            </ul>
+        </div>
+    
+        <div id="main">
+            <h2 id="welcome">Welcome to Luke Ken!</h2>
+            <p>
+                Luke Ken is a free and open-source game that also provides a collection of free assets and resources for use.
+            These assets, initially created for DN3D Engine, they are available for use in various game projects beyond DN3D Engine.
+            </p>
+    
+            <h2 id="screenshots">Screenshots</h2>
+            <div id="screenshots">
+                <img src="screenshot1.jpg" alt="Screenshot 1">
+                <img src="screenshot2.jpg" alt="Screenshot 2">
+                <img src="screenshot3.jpg" alt="Screenshot 3">
+            </div>
+            
+            <h2 id="story">Story</h2>
+            <p>
+                Luke Ken is a sci-fi game where you play as a futuristic Space Enforcer who works for the Galactic Task Force (G.T.F. for short).
+                After your return to Earth, you discover an impending invasion that threatens humanity.
+                It's up to you to use every state-of-the-art weapon at your disposal, whether you're battling in Twilight City or venturing into outer space.
+                Your mission is to save humanity before it's too late.
+                The story is a work in progress, so stay tuned for updates!
+            </p>
+
+            <h2 id="repository">Project Repository</h2>
+            <p>
+                The source code and assets for Luke Ken can be found on GitHub:
+                <a href="https://github.com/LukeKenTeam/LukeKen" target="_blank">https://github.com/LukeKenTeam/LukeKen</a>
+            </p>
+    
+            <h2 id="involved">Get Involved</h2>
+            <p>
+                Whether you're an artist, modder, or FOSS enthusiast, you can contribute to the project.
+                Join our community, share your assets, collaborate on new ideas, or contribute to the existing resources.
+                Visit the GitHub repository for more information on how to get involved.
+            </p>
+            
+            <h2 id="attribution">Attribution</h2>
+            <p>
+                Please note that the Luke Ken character and original design ideas in The Luke Ken Universe are owned by ZNukem. While you are free to use the assets in your projects, 
+                we kindly request that you provide proper attribution to any fan project you create using the character. Before finalizing whether the ideas or story derived from Luke Ken are considered canon, 
+                we request that you consult with ZNukem for approval. Giving credit to ZNukem for the Luke Ken character and design ideas used from the project would be greatly appreciated.
+            </p>
+
+            <h2 id="license">License</h2>
+            <p>
+            The assets in Luke Ken are provided under a license similar to the BSD 3-Clause License just like FreeDoom and LibreQuake.
+            This means that you are free to use, modify, and distribute the assets, both commercially and non-commercially,
+            as long as you include the original license and provide appropriate attribution to [Your Name].
+            For more details, please refer to the specific license file included with the asset package.
+            </p>
+        </div>
+    </div>
+    
+
+    <div id="footer">
+        &copy; ZNukem 2020-2023 | Luke Ken Project and Contributors
+    </div>
 </body>
 </html>
