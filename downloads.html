@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Luke Ken - Free and Open Source Game Project</title>
+    <style>
+        body {
+            font-family: Verdana, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000066;
+            color: #ffffff;
+        }
+
+        #header {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+            height: 100vh;
+        }
+
+        #navigation {
+            background: linear-gradient(to right, #000044, #000066);
+            color: #ffffff;
+            padding: 10px;
+            width: 200px;
+        }
+
+        #main {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 20px;
+            flex: 1;
+            overflow: auto;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #00ccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #footer {
+            background-color: #000066;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        #logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        #screenshots {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #screenshots img {
+            width: 400px;
+            margin-bottom: 10px;
+        }
+        #forkme {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 9999;
+        }
+    </style>
+</head>
+<a id="forkme" href="https://github.com/LukeKenTeam/LukeKen" target="_blank">
+    <img src="pics/forkme.png" alt="Fork me on GitHub">
+</a>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="pics/logo.png" alt="Luke Ken Logo">
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="navigation">
+            <ul>
+                <h3>Navigation</h3>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="story.html">Story</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="about.html">About</a></li>
+                <hr />
+                <li><a href="help.html">Help Project</a></li>
+                <li><a href="links.html">Links</a></li>
+                <hr />
+                <h3>Follow Us</h3>
+                <li><a href="https://github.com/LukeKenTeam/">GitHub</a></li>
+                <li><a href="https://www.youtube.com/@LukeKenTheGame">YouTube</a></li>
+                <li><a href="https://discord.gg/TSFYwTPqUk">Discord</a></li> 
+                <hr />
+                <img src="pics/badge.png" alt="Open Source Badge">
+            </ul>
+        </div>
+    
+        <div id="main">
+            <h2 id="download">Downloads</h2>
+            <p>
+            A stable release is not available only AlphaKen Dev Build for testing resources.
+            </p>
+            <h2 id="download">AlphaKen Dev Build</h2>
+            <p>
+            If you are looking for developer release build for testing stuff look at AlphaKen:
+            </p>
+            <p>
+                <a href="https://github.com/LukeKenTeam/LukeKen/releases/tag/AlphaKen" download>Download Latest AlphaKen Build</a>
+            </p>
+            <h2 id="screenshots">Screenshots</h2>
+            <div id="screenshots">
+                <img src="pics/lk3d~1_003.png" alt="Screenshot 1">
+                <img src="pics/lk3d~1_005.png" alt="Screenshot 2">
+                <img src="pics/lk3d~1_004.png" alt="Screenshot 3">
+            </div>
+            <h2 id="repository">Copyright licenses for these screenshots</h2>
+            <p>
+                These screenshots are all available for reuse under the same license as Luke Ken 3D itself, which may be found at COPYING doc in source tree.</a>
+            </p>  
+            <h2 id="repository">Project Repository</h2>
+            <p>
+                The source code and assets for Luke Ken can be found on GitHub:
+                <a href="https://github.com/LukeKenTeam/LukeKen3D" download>Here</a>
+            </p>  
+        </div>
+    </div>
+    <div id="footer">
+        &copy; ZNukem 2020-2024 | Luke Ken Project and Contributors this website is <a href="https://github.com/LukeKenTeam/LukeKen3D/blob/main/COPYING">licensed under an open-license
+    </div>
+</body>
+</html>
